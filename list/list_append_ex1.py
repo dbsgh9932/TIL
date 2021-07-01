@@ -4,3 +4,5 @@ for i in range(3):
     s.append(name)
 s=' '.join(s)
 print('회원 명단 : ',s)
+for a in s:
+    print(a,end='')
