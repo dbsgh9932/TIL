@@ -4,7 +4,7 @@ def order():
 
     print('------------------')
     print('상품가격 : %d원' % price)
-    print('주문수량 : %d개'%count)
+    print('주문수량 : %d개'% count)
     return price * count
 
 print('주문액 : ',order(),'원')
