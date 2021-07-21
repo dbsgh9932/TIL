@@ -10,5 +10,4 @@ def gbb_game():
     else:
         print('컴퓨터가 이겼습니다.')
     print('COM : %d' % n)
-
 gbb_game()

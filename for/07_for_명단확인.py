@@ -14,9 +14,9 @@ for name in namelist:
         break # 찾은 경우 반복중단코드 사용
     else: # 명단에서 이름을 못찾은 경우 -> 찾을때 까지 반복
         find=False
+
 # print(find)
 if find: # if find==true 와 같음
     print('명단에 있습니다')
 else:
     print('명단에 없습니다.')
-    
