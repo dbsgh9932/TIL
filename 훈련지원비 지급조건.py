@@ -1,7 +1,7 @@
-
+#6~10월 총 수강 일수 [21, 24, 21, 22, 18]
 day=eval(input('총 수강 일수 : '))
 needday=day*0.8
-print('필요한 최소 수강 일 수 : %.0f' %needday)
+print('필요한 최소 수강 일 수 : %.1f' %needday)
 myday=eval(input('내가 들은 일수 : '))
 
 price=myday/day
